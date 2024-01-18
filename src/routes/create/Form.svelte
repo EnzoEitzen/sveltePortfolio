@@ -1,7 +1,7 @@
 <style lang="postcss">
 </style>
 
-<form class="space-x-9 mx-32" method="post">
+<form class="space-x-9 mx-10" method="post">
     <div class="space-y-12">
         <div class="border-b border-gray-900/10 pb-12">
             <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">

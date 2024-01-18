@@ -9,7 +9,7 @@
 
 <style lang="postcss">
     :global(html) {
-        background-color: theme(colors.slate.950);
+        background-color: theme(colors.slate.900);
         color: white;
     }
 </style>

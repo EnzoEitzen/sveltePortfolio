@@ -5,12 +5,12 @@ export async function load() {
 }
 
 export const actions = {
-    default: async ({cookies, request}) => {
+    default: async ({request}) => {
         const data = await request.formData()
         let formEntries = []    // change so that it saves to database
         for (const key of data.entries()) {
             formEntries = [...formEntries, key]
         }
-        let post = await Post.create({title: formEntries[1][1], body: formEntries[2][1]})
+        await Post.create({title: formEntries[1][1], body: formEntries[2][1]})
     }
 };
