@@ -6,7 +6,7 @@
         <div class="border-b border-gray-900/10 pb-12">
             <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div class="sm:col-span-3">
-                    <label for="user" class="block text-sm font-medium leading-6 text-gray-100">UserName</label>
+                    <label for="user" class="block text-sm font-medium leading-6 text-gray-100 selection:bg-slate-400">UserName</label>
                     <div class="mt-2">
                         <input type="text" name="user" id="first-name"
                                class="caret-indigo-500 bg-gray-950 block w-full rounded-md border-0 py-1.5 text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-100 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="sm:col-span-3">
-                    <label for="title" class="block text-sm font-medium leading-6 text-gray-100">Post Title</label>
+                    <label for="title" class="block text-sm font-medium leading-6 text-gray-100 selection:bg-slate-400">Post Title</label>
                     <div class="mt-2">
                         <input type="text" name="title" id="last-name"
                                class="caret-indigo-500 bg-gray-950 block w-full rounded-md border-0 py-1.5 text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-100 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
@@ -22,12 +22,12 @@
                 </div>
 
                 <div class="col-span-full">
-                    <label for="body" class="block text-sm font-medium leading-6 text-gray-100">Post Body</label>
+                    <label for="body" class="block text-sm font-medium leading-6 text-gray-100 selection:bg-slate-400">Post Body</label>
                     <div class="mt-2">
                         <textarea id="about" name="body" rows="3"
                                   class=" caret-indigo-600 bg-gray-950 block w-full rounded-md border-0 py-1.5 text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-100 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
                     </div>
-                    <p class=" mt-3 text-sm leading-6 text-gray-100">Write a few sentences about your day.</p>
+                    <p class=" mt-3 text-sm leading-6 text-gray-100 selection:bg-slate-400">Write a few sentences about your day.</p>
                 </div>
             </div>
         </div>

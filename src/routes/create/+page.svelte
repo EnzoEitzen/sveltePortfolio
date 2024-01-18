@@ -4,7 +4,7 @@
 
 <style lang="postcss">
     :global(html) {
-        background-color: theme(colors.slate.700);
+        background-color: theme(colors.slate.950);
     }
 </style>
 

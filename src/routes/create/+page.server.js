@@ -11,6 +11,6 @@ export const actions = {
         for (const key of data.entries()) {
             formEntries = [...formEntries, key]
         }
-        let post = await Post.create({title: formEntries[0][1], body: formEntries[1][1]})
+        let post = await Post.create({title: formEntries[1][1], body: formEntries[2][1]})
     }
 };
