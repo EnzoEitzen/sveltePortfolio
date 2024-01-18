@@ -1,6 +1,7 @@
 import {Sequelize, DataTypes} from "sequelize";
+import { url } from "$lib/url.json"
 
-const sequelize = new Sequelize("postgres://postgres:Darrrrrr01!@localhost:3000/Blog")
+const sequelize = new Sequelize(url)
 
 try {
     await sequelize.authenticate();
