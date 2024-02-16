@@ -1,5 +1,5 @@
 import {Sequelize, DataTypes} from "sequelize";
-import { url } from "$lib/url.json"
+import { url } from "$lib/server/url.json"
 
 const sequelize = new Sequelize(url)
 
@@ -21,5 +21,7 @@ export const Post = sequelize.define('post', {
         allowNull: false
     }
 });
+
+// await Post.destroy({ truncate: true, restartIdentity: true });
 
 export let allPosts = []

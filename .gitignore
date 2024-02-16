@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/src/lib/url.json
+/src/lib/server/url.json
 /build
 /.svelte-kit
 /package
